@@ -1,0 +1,829 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.black-border{
+    height: 100px;
+    width: 100%;
+     background-color: #000; 
+}
+.svg{
+    color: #000;
+    height: 50px;
+    width: 50px;
+}
+.first-logo{
+    max-width: 1500px;
+}
+.first-logo svg{
+    height: 35px;
+    width: 35px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 100px;
+    
+}
+.first-logo:hover{
+    color: #dadbf1;
+    cursor: pointer;
+}
+.first-logo svg :hover{
+color: #dadbf1;
+cursor: pointer;
+}
+
+.header{
+    display: flex;
+    max-width: 500px;
+    margin-left: 140px;
+}
+.header h3{
+    color: #fff;
+    margin-top: -65px;
+    font-size: 21px;
+    font-weight: 600;
+cursor: pointer;
+margin-left: 5px;
+}
+.header h3:hover{
+    color: #dadbf1;
+}
+.header span{
+    color: #fff;
+     margin-left: 10px;
+    margin-top: -65px;
+    font-size: 23px;
+    font-style: normal;
+    cursor: pointer;
+}
+.header span:hover{
+    text-decoration: underline;
+}
+.submit-btn{
+     max-width: 1230px;
+     margin-top: -80px; 
+}
+.btns{
+    max-width: 1350px;
+}
+.btn{
+    color: #fff; 
+   border: 1px solid #fff;
+   height: 40px;
+   width: 250px;
+   border-radius: 10px;
+   font-size: 27px;
+   cursor: pointer;
+   float: right;
+   padding: 10px 0px 0px 0px;
+    text-align: center;
+    margin-right: 12px;
+}
+.sign-btn{
+    max-width: 1400px;
+     margin-top: -70px; 
+}
+.sign{
+    color: #fff; 
+   height: 40px;
+   width: 130px;
+   border-radius: 10px;
+   font-size: 27px;
+   cursor: pointer;
+   float: right;
+   padding: 10px 0px 0px 0px;
+    text-align: center;
+    background-color: rgb(44, 44, 173);
+}
+.color-height{
+    margin-top: 70px;
+    height: 440px;
+    background-color: #dadbf1;
+}
+.height h2{
+    text-align: center;
+    margin-top: -330px;
+    font-size: 80px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.height input{
+    position: relative;
+    left: 23%;
+    height: 50px;
+    width: 760px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding:  12px;
+    border: 1px solid black;
+    margin-top: -90px;
+}
+.height input:hover{
+    border: 1px solid blue;
+}
+ 
+.help{
+    color: #fff; 
+   height: 35px;
+   width: 100px;
+   border-radius: 50px;
+   font-size: 22px;
+   cursor: pointer;
+   float: right;
+   padding: 8px 8px 5px 5px;
+    text-align: center;
+    background-color: rgb(44, 44, 173);
+    margin-top: 200px;
+    position: fixed;
+    left: 90%;
+}
+.help svg{
+    color: #fff;
+    margin-right: 7px;
+    fill: white;
+    margin-top: 5px;
+}
+.svg-btn{
+    margin-top: 250px;
+    float: right;
+    color: #fff; 
+    height: 30px;
+    width: 50px;
+    border-radius: 200px;
+    cursor: pointer;
+    padding: 18px 8px 5px 5px;
+     text-align: center;
+     background-color: blue;
+     display: none;
+     position: fixed;
+     margin-left: 260px;
+}
+.svg-btn svg{
+    color: #fff;
+    fill: #fff;
+}
+.images{
+    max-width: 1400px;
+   margin-top: 310px;
+   margin-left: 150px;
+   display: flex;
+}
+.first-image img{
+    height: 90px;
+    width: 90px;
+}
+.first-image h1{
+    margin-top: -85px;
+   margin-left: 120px;
+   font-size: 24px;
+   font-weight: bold;
+}
+.first-image p{
+    font-size: 23px;
+    line-height: 32px;
+    width: 360px;
+    margin-left: 120px;
+    margin-top: -5px;
+}
+.second-image{
+    margin-left: 40px;
+}
+.second-image img{
+    height: 90px;
+    width: 90px;
+}
+.second-image h1{
+    margin-top: -85px;
+   margin-left: 120px;
+   font-size: 24px;
+   font-weight: bold;
+}
+.second-image p{
+    font-size: 23px;
+    line-height: 32px;
+    width: 360px;
+    margin-left: 120px;
+    margin-top: -5px;
+}
+.images span{
+    font-size: 22px;
+    margin-left: 120px;
+    color: blue;
+    cursor: pointer;
+}
+.images span:hover{
+    text-decoration: underline;
+}
+.images2{
+    max-width: 1400px;
+    margin-left: 100px;
+    display: flex;  
+    margin-top: 100px; 
+}
+.third-image{
+    margin-left: 40px;
+}
+.third-image img{
+    height: 90px;
+    width: 90px;
+}
+.third-image h1{
+    margin-top: -85px;
+   margin-left: 120px;
+   width: 380px;
+   font-size: 24px;
+   font-weight: bold;
+}
+.third-image p{
+    font-size: 23px;
+    line-height: 32px;
+    width: 340px;
+    margin-left: 120px;
+    margin-top: -5px;
+}
+.four-image{
+    margin-left: 50px;
+}
+.four-image img{
+    height: 90px;
+    width: 90px;
+}
+.four-image h1{
+    margin-top: -85px;
+   margin-left: 120px;
+   font-size: 24px;
+   font-weight: bold;
+}
+.four-image p{
+    font-size: 23px;
+    line-height: 32px;
+    width: 300px;
+    margin-left: 120px;
+    margin-top: -5px;
+}
+.images2 span{
+    font-size: 22px;
+    margin-left: 120px;
+    color: blue;
+    cursor: pointer;
+}
+.images2 span:hover{
+    text-decoration: underline;
+}
+    .images3{
+        max-width: 1400px;
+       margin-top: 100px;
+       margin-left: 140px;
+       display: flex;
+    }
+    .five-image img{
+        height: 90px;
+        width: 90px;
+    }
+    .five-image h1{
+        margin-top: -85px;
+       margin-left: 120px;
+       font-size: 24px;
+       font-weight: bold;
+    }
+    .five-image p{
+        font-size: 23px;
+        line-height: 32px;
+        width: 350px;
+        margin-left: 120px;
+        margin-top: -5px;
+    }
+    .six-image{
+        margin-left: 100px;
+        margin-bottom: 200px;
+    }
+    .six-image img{
+        height: 90px;
+        width: 90px;
+    }
+    .six-image h1{
+        margin-top: -85px;
+       margin-left: 120px;
+       font-size: 24px;
+       font-weight: bold;
+    }
+    .six-image p{
+        font-size: 23px;
+        line-height: 32px;
+        width: 340px;
+        margin-left: 120px;
+        margin-top: -5px;
+    }
+    .images3 span{
+        font-size: 22px;
+        margin-left: 120px;
+        color: blue;
+        cursor: pointer;
+    }
+    .images3 span:hover{
+        text-decoration: underline;
+    }
+    .black-height{
+        height: 450px;
+        width: 100%;
+        background-color: #000;    
+    }
+    .black{
+        color: #fff;
+        max-width: 650px;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        margin-left: 100px;
+        line-height: 10px;
+    }
+    .black h1{
+        margin-top: 50px;
+        margin-bottom: 40px;
+        font-size: 25px;
+    }
+    .black h3{
+        font-size: 15px;
+    }
+    .black h3:hover{
+        text-decoration: underline;
+    }
+    .info{
+        margin-top: 200px;
+        margin-left: -180px;
+    }
+    .svg{
+        color: #000;
+        height: 50px;
+        width: 50px;
+    }
+    .yo{
+        margin-left: -300px;
+    }
+    .logo2{
+        max-width: 1500px;
+        float: right; 
+        margin-top: -60px; 
+    }
+    .logo2 svg{
+        height: 40px;
+        width: 50px;
+    
+    }
+    .logo2 p{
+        width: 240px;
+        color: #fff;
+        font-size: 22px;
+    }
+    .header2{
+        margin-top: -80px;
+    }
+    .header2 ul li{
+        color: white;
+         display: none;
+          
+    }
+    .header2 ul li i{
+        font-size: 22px;
+        
+    }
+    .bar{
+        margin-left: 8px;
+    }
+    /* RESPONSIVE  */
+    @media only screen and (max-width: 600px){
+        .header2{
+             color: #fff; 
+            margin-top: -75px;
+            display: block;
+        }
+        .header2 ul li{
+            color: white;
+             display: inline-block;
+              
+        }
+        .header2 ul li i{
+            font-size: 22px;
+        }
+        .black-border{
+            height: 90px;
+        }
+        .header{
+            margin-top: -10px;   
+        }
+        .header h3{
+            font-size: 18px;
+            margin-left: -100px;
+          
+        }
+        .header span{
+            font-size: 18px;
+            margin-left: 10px;
+        }
+        .sign-btn{
+            display: none;
+        }
+        .submit-btn{
+            display: none;
+        }
+        .svg{
+            height: 10px;
+        }
+        .first-logo svg{
+            height: 25px;
+            margin-left: 10px;
+            margin-top: 13px;
+        }
+        .color-height{
+            margin-top: -24px;
+            height: 320px;
+        }
+        .height h2{
+            font-size: 32px;
+            margin-top: -250px;
+            margin-bottom: 60px;
+            margin-left: -40px;
+        }
+        .height input{
+            width: 270px;
+            height: 30px;
+            margin-left: -70px;
+        }
+        .help{
+            display: none;
+    }
+    .svg-btn{
+        display: block;
+    }
+    .images{
+        display: inline-block;
+        margin-top: 250px;
+        margin-left: 20px;
+    }
+    .first-image{
+        margin-bottom: 90px;
+    }
+    .first-image img{
+        height: 50px;
+        width: 60px;
+    }
+    .first-image h1{
+        font-size: 23px;
+        margin-left: 70px;
+        margin-top: -55px;
+    }
+    .first-image p{
+        font-size: 22px;
+        margin-left: 70px;
+        width: 210px;
+    }
+    .images span{
+        margin-left: 70px;
+        font-size: 20px;
+    }
+    .second-image{
+        margin-left: -10px;
+        margin-bottom: 90px;
+    }
+    .second-image img{
+        height: 50px;
+        width: 60px;
+        margin-top: -20px;
+    }
+    .second-image h1{
+        font-size: 23px;
+        margin-left: 70px;
+        margin-top: -55px;
+    }
+    .second-image p{
+        font-size: 22px;
+        margin-left: 70px;
+        width: 210px;
+    }
+    .images2{
+        display: inline-block;
+        margin-left: 20px; 
+        margin-top: -20px;
+    }
+    
+    .third-image{
+        margin-left: -10px;
+        margin-bottom: 90px;
+    }
+    .third-image img{
+        height: 50px;
+        width: 60px;
+        margin-top: -20px;
+    }
+    .third-image h1{
+        font-size: 23px;
+        margin-left: 70px;
+        margin-top: -55px;
+        width: 240px;
+    }
+    .third-image p{
+        font-size: 22px;
+        margin-left: 70px;
+        width: 220px;
+    }
+    .four-image{
+        margin-left: -10px;
+        margin-bottom: 90px;
+    }
+    .four-image img{
+        height: 50px;
+        width: 60px;
+        margin-top: -20px;
+    }
+    .four-image h1{
+        font-size: 23px;
+        margin-left: 70px;
+        margin-top: -55px;
+    }
+    .four-image p{
+        font-size: 22px;
+        margin-left: 70px;
+        width: 220px;
+    }
+    .images2 span{
+        margin-left: 70px;
+        font-size: 20px;
+    }
+    .images3{
+        display: inline-block;
+        margin-left: 20px; 
+        margin-top: -20px; 
+    }
+    .five-image{
+        margin-left: -10px;
+        margin-bottom: 90px;
+    }
+    .five-image img{
+        height: 50px;
+        width: 60px;
+        margin-top: -20px;
+    }
+    .five-image h1{
+        font-size: 23px;
+        margin-left: 70px;
+        margin-top: -55px;
+        width: 200px;
+    }
+    .five-image p{
+        font-size: 22px;
+        margin-left: 70px;
+        width: 220px;
+    }
+    .six-image{
+        margin-left: -10px;
+        margin-bottom: 90px;
+    }
+    .six-image img{
+        height: 50px;
+        width: 60px;
+        margin-top: -20px;
+    }
+    .six-image h1{
+        font-size: 23px;
+        margin-left: 70px;
+        margin-top: -55px;
+    }
+    .six-image p{
+        font-size: 22px;
+        margin-left: 70px;
+        width: 220px;
+    }
+    .images3 span{
+        margin-left: 70px;
+        font-size: 20px;
+    }
+    .black-height{
+        max-width: 375px;
+        height: 660px;
+    }
+    .black{
+        margin-left: 20px;
+        width: 280px;
+    }
+ .black h1{
+    font-size: 21px;
+    margin-left: -10px;
+ }
+    .black h3{
+        font-size: 13px;
+    }
+    .community{
+        margin-top: 200px;
+        margin-left: -250px;
+    }
+    .resource{
+        margin-left: 80px;
+    }
+    .company{
+        margin-top: 200px;
+         margin-left: 50px; 
+    }
+    .info{
+        margin-top: 390px;
+         margin-left: -100px; 
+    }
+    .svg{
+        color: #000;
+        height: 30px;
+        width: 30px;
+    }
+    .logo2 svg{
+        height: 40px;
+        width: 40px;
+        margin-top: 60px;
+        margin-left: -60px;
+    }
+    .logo2 p{
+        margin-top: 8px;
+        font-size: 20px;
+        margin-left: -60px;
+        width: 200px;
+    }
+}
+/* TABLET RESPONSIVE */
+@media only screen and (min-width: 580px) and (max-width: 1024px){
+    .first-logo svg{
+        margin-left: 60px;
+        height: 30px;
+        width: 30px;
+        margin-top: 30px;
+    }
+    .header{
+        margin-left: 100px;
+    }
+    .header h3{
+        font-size: 22px;
+    }
+    .sign-btn{
+        display: none;
+    }
+    .submit-btn{
+        display: none;
+    }
+    .header2{
+        color: #fff; 
+       margin-top: -80px;
+       display: block;
+       position: relative;
+       left: 62%;
+   }
+   .header2 ul li{
+       color: white;
+        display: inline-block;
+   }
+   .header2 ul li i{
+       font-size: 24px;
+   }
+   .color-height{
+    margin-top: -5px;
+   }
+   .height h2{
+    font-size: 80px;
+   }
+   .height input{
+    margin-left: -120px;
+    max-width: 650px;
+   }
+   .images{
+    margin-left: 80px;
+   }
+   .first-image img{
+    height: 70px;
+    width: 70px;
+    margin-left: 20px;
+   }
+   .first-image h1{
+    font-size: 28px;
+   }
+   .first-image p{
+    font-size: 29px;
+    width: 180px;
+   }
+   .second-image img{
+    height: 70px;
+    width: 70px;
+    margin-left: 20px;
+   }
+   .second-image h1{
+    width: 180px;
+    font-size: 28px;
+   }
+   .second-image p{
+    font-size: 29px;
+    width: 180px;
+   }
+   .images span{
+    font-size: 25px;
+   }
+   .images2{
+    margin-left: 50px;
+   }
+   .third-image img{
+    height: 70px;
+    width: 70px;
+    margin-left: 20px;
+   }
+   .third-image h1{
+    width: 140px;
+    font-size: 28px;
+   }
+   .third-image p{
+    font-size: 29px;
+    width: 190px;
+   }
+   .four-image{
+    margin-left: 10px;
+   }
+   .four-image img{
+    height: 70px;
+    width: 70px;
+    margin-left: 20px;
+   }
+   .four-image h1{
+    width: 180px;
+    font-size: 28px;
+   }
+   .four-image p{
+    font-size: 29px;
+    width: 180px;
+   }
+   .images2 span{
+    font-size: 25px;
+   }
+
+   .images3{
+    margin-left: 50px;
+   }
+   .five-image img{
+    height: 70px;
+    width: 70px;
+    margin-left: 20px;
+   }
+   .five-image h1{
+    width: 190px;
+    font-size: 28px;
+   }
+   .five-image p{
+    font-size: 29px;
+    width: 190px;
+   }
+   .six-image{
+    margin-left: 20px;
+   }
+   .six-image img{
+    height: 70px;
+    width: 70px;
+    margin-left: 20px;
+   }
+   .six-image h1{
+    width: 180px;
+    font-size: 28px;
+   }
+   .six-image p{
+    font-size: 29px;
+    width: 180px;
+   }
+   .images3 span{
+    font-size: 25px;
+   }
+   .help{
+    margin-left: -90px;
+   }
+   .black-height{
+    height: 700px;
+   }
+   .black{
+    max-width: 580px;
+    width: 100%;
+   }
+   .black h1{
+    font-size: 29px;
+   }
+   .abstract{
+    margin-left: -40px;
+   }
+   .resource{
+    margin-left: 50px;
+   }
+   .community{
+    margin-top: 200px;
+    margin-left: -690px;
+   }
+   .company{
+    margin-top: 200px;
+    margin-left: -10px;
+   }
+   .logo2 svg{
+    margin-top: 70px;
+   }
+   .info{
+    margin-top: 400px;
+     
+   }
+}
